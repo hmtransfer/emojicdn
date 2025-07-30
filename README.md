@@ -2,10 +2,10 @@
 
 ## Basic usage
 
-Append any emoji to the end of `emojicdn.hmt.ir` to get a PNG image:
+Append any emoji to the end of `emoji.hmt.ir` to get a PNG image:
 
 ```html
-<img src="https://emojicdn.hmt.ir/🥳" />
+<img src="https://emoji.hmt.ir/🥳" />
 ```
 
 ## Emoji style
@@ -13,7 +13,7 @@ Append any emoji to the end of `emojicdn.hmt.ir` to get a PNG image:
 For more control, add the `style` query parameter to specify an emoji platform:
 
 ```html
-<img src="https://emojicdn.hmt.ir/🥳?style=google" />
+<img src="https://emoji.hmt.ir/🥳?style=google" />
 ```
 
 If no `style` is provided, the API defaults to `apple`.
