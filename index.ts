@@ -63,7 +63,7 @@ export default {
     const style = url.searchParams.get("style") ?? "apple";
 
     if (path === "") {
-      return redirect("https://github.com/benborgers/emojicdn");
+      return redirect("https://github.com/hmtransfer/emojicdn");
     }
 
     if (path === "favicon.ico") {
